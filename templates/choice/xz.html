@@ -7,9 +7,9 @@
 <body>
 {% for item  in tm %}
 <p>{{item.body}}</p>
-<img  src="{{item.pic}}"/>
+<p><img  src="../media/{{item.pic}}"/></p>
 请输入你的答案：
-<form action="index" method="post">
+<form action="index1" method="post">
       <p><input name="youranswer"> </p>
       <p><input type="submit" value="submit"/></p>
 </form>
